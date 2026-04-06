@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Game Populer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            max-width: 600px;
+            border-collapse: collapse;
+            background-color: #2c2c2c;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+        th {
+            background-color: #333;
+            color: #ffcc00;
+        }
+        .btn-join {
+            background-color: #ffcc00;
+            color: black;
+            padding: 8px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .btn-join:hover {
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nama Game</th>
+                <th>Status</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Game Slot Gacor A</td>
+                <td style="color: #00ff00;">Online</td>
+                <td><a href="#" class="btn-join">MAIN</a></td>
+            </tr>
+            <tr>
+                <td>Game Slot Gacor B</td>
+                <td style="color: #00ff00;">Online</td>
+                <td><a href="#" class="btn-join">MAIN</a></td>
+            </tr>
+            <tr>
+                <td>Game Slot Gacor C</td>
+                <td style="color: #ff3333;">Maintenance</td>
+                <td><a href="#" class="btn-join" style="background-color: #888;">OFF</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
